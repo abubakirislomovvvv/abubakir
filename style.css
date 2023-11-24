@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.header-btn {
+    border-radius: 6px;
+    background: #1617DB;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+}
+
+.header-list {
+    display: flex;
+    column-gap: 60px;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+    justify-content: flex-end;
+}
+
+.header {
+    margin-top: 39.72px;    
+}
+
+.header-list li:hover {
+    border-bottom: 5px solid blue;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    transition: 0.1s ;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.s-1-d-text {
+    color: #1617DB;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.s-1-d-head {
+    width: 453.699px;
+    font-size: 67px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.s-1-d-text-2 {
+    width: 456.545px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.s-1-d-btn-2 {
+    background: none;
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+    padding: 15px 30px;
+    color: #6565EC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.wrapper-text-div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.s-1-img {
+    width: 869.102px;
+    height: 509.783px;
+}
+
+.s-2-heading {
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.s-2-text {
+    width: 485px;
+}
+
+.s-2-text-div {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+    margin-top: 300px;
+}
+
+.img-watch {
+    width: 311.892px;
+    height: 400.316px;
+    border-radius: 64px;
+    border: 3px solid #CCC;
+    background-color: wheat;
+}
+
+.ift {
+   display: flex;
+   margin: 80px;
+   flex-direction: row;
+   gap: 20px;
+}
+
+.s-2-div-for-watch {
+    display: flex;
+    justify-content: space-between;
+}
+
+.s-3-image {
+    width: 590.696px;
+    height: 390.359px;
+}
+
+.s-3-heading {
+    width: 485.963px;
+}
+
+.s-3-text {
+    width: 440.371px;
+}
+
+
+.S-3-btn {
+    background: none;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+
+.s-3 {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    margin-top: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li>a {
+    text-decoration: none;
+    color: black;
+}
+
+.row {
+    display: flex;
+}
+
+footer {
+    display: flex;
+    margin-top: 100px;
+    column-gap: 40px;
+}
+
+.row {
+    display: flex;
+    column-gap: 70px;
+}
